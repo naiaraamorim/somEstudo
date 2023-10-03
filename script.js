@@ -26,7 +26,6 @@ document.getElementById('sound4').addEventListener('click', () => {
     funcaoControlaAudio('sound4', 'audio4');
 });
 
-
 const images = document.querySelectorAll('img');
 images.forEach(function(image) {
     image.addEventListener('click', function() {
@@ -42,7 +41,7 @@ const alarme = document.getElementById('alarme');
 
 let tempos;
 let minutos = 0;
-let segundos = 5;
+let segundos = 25;
 let rodando = false;
 
 function atualizaTempo() {
