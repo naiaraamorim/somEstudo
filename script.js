@@ -40,8 +40,8 @@ const botaoReiniciar = document.getElementById('reiniciar');
 const alarme = document.getElementById('alarme');
 
 let tempos;
-let minutos = 0;
-let segundos = 25;
+let minutos = 25;
+let segundos = 0;
 let rodando = false;
 
 function atualizaTempo() {
